@@ -318,3 +318,47 @@ textarea {
 .close-btn:hover {
     background-color: #45a049;
 }
+
+
+@media (max-width: 767px) {
+    .cookies-message {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .map-article,
+    .amsterdam-map,
+    .pin-1,
+    .pin-2,
+    .pin-3,
+    .pin-4,
+    .pin-5,
+    .pin-6,
+    .pin-7,
+    .pin-8 {
+        width: 100%;
+        margin: 20px;
+        position: relative;
+      
+    }
+}
+
+@media (max-width: 767px) {
+    .art-img {
+    width: 200px;
+    height: 200px;
+    }}
+
+    @media (max-width: 767px) {
+        .landmark-img {
+        width: 200px;
+        height: 200px;
+        }}
+
+        @media (max-width: 767px) {
+            .culture-img {
+            width: 200px;
+            height: 200px;
+            }}
