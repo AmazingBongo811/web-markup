@@ -2,4 +2,4 @@ Student name: Aron Lakatos
 Student number: 711510
 Student class: your IT1A
 GitHub Repository: https://github.com/AmazingBongo811/web-markup
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://amazingbongo811.github.io/web-markup/
