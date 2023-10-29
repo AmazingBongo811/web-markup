@@ -1,0 +1,320 @@
+/* General styling for the body */
+body {
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+    background-color: #86F4B2;
+    border-radius: 25px;
+}
+
+/* Header styles */
+.header-header {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/header.png');
+    background-size: cover;
+    padding: 50px 0;
+    color: white;
+    margin: 0 20px;
+}
+
+/* Navigation styles */
+.nav,
+nav ul {
+    margin-top: 0;
+}
+
+.copyright {
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #574AED;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+nav a:active {
+    background-color: #6fe516;
+}
+
+/* Header text styles */
+header h1,
+header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/* Styling for article headers */
+.header-article,
+.art-header {
+    border-radius: 20px;
+    background-color: #00000075;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+/* Intro section styling */
+.intro {
+    margin: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #00000075;
+    border-radius: 25px;
+    border-color: #ffffff;
+    border-style: double;
+    border-width: 2px;
+
+}
+
+.intro h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Map and pin styling */
+.map {
+    width: 100%;
+    margin: 20px;
+    position: relative;
+    /* Added for positioning pins */
+}
+
+.pin-1,
+.pin-2,
+.pin-3,
+.pin-4,
+.pin-5,
+.pin-6,
+.pin-7,
+.pin-8 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Article titles and sections styles */
+.culture-title,
+.title {
+    border-radius: 25px;
+    margin: 20px;
+    background-color: #4D5C46;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Flex layouts for articles */
+.flex-article {
+    display: flex;
+    margin: 20px;
+}
+
+/* Styles for landmarks and culture sections */
+.landmarks-body,
+.dutch-culture-flex {
+    margin: 20px;
+}
+
+/* Contact section styles */
+.contact-section {
+    background-color: #5f252e;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.contact-section h2,
+.contact-section p {
+    color: #ffffff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-indent: 25px;
+}
+
+.author {
+    margin: 20px;
+}
+
+.contact-from input,
+textarea {
+    display: block;
+    margin-left: 10px;
+}
+
+.contact-section h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.contact-from button {
+    margin: 10px;
+
+}
+
+.pin-1 {
+    background-image: url('../img/pin-1.png');
+}
+
+.pin-2 {
+    background-image: url('../img/pin-2.png');
+}
+
+.pin-3 {
+    background-image: url('../img/pin-3.png');
+}
+
+.pin-4 {
+    background-image: url('../img/pin-4.png');
+}
+
+.pin-5 {
+    background-image: url('../img/pin-5.png');
+}
+
+.pin-6 {
+    background-image: url('../img/pin-6.png');
+}
+
+.pin-7 {
+    background-image: url('../img/pin-7.png');
+}
+
+.pin-8 {
+    background-image: url('../img/pin-8.png');
+}
+
+.pin-1,
+.pin-2,
+.pin-3,
+.pin-4,
+.pin-5,
+.pin-6,
+.pin-7,
+.pin-8 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+
+.art-body {
+    color: #ffffff;
+    background-color: #A35964;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 18px;
+
+}
+
+.landmarks-body {
+    margin: 20px;
+}
+
+.culture-text,
+.landmarks-text {
+    margin: 20px;
+    background-color: #A35964;
+    padding: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.dutch-culture-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.culture-img {
+    margin: auto;
+    display: block;
+}
+
+
+.art-title-2,
+.art-title-1 {
+    border-radius: 20px;
+    background-color: #4D5C46;
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px;
+    width: 37%;
+    text-align: center;
+
+}
+
+.art-title-2 {
+    margin-left: auto
+}
+
+.art-title-1 {
+    margin-top: 20px;
+
+}
+
+.cookies-message {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 9999;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #45a049;
+}
