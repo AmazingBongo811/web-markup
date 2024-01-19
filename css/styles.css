@@ -14,6 +14,7 @@ body {
     background-size: cover;
     padding: 50px 0;
     color: white;
+    text-transform: uppercase;
     margin: 0 20px;
 }
 
@@ -341,24 +342,73 @@ textarea {
         width: 100%;
         margin: 20px;
         position: relative;
-      
+
     }
 }
 
 @media (max-width: 767px) {
     .art-img {
-    width: 200px;
-    height: 200px;
-    }}
-
-    @media (max-width: 767px) {
-        .landmark-img {
         width: 200px;
         height: 200px;
-        }}
+    }
+}
 
-        @media (max-width: 767px) {
-            .culture-img {
-            width: 200px;
-            height: 200px;
-            }}
+@media (max-width: 767px) {
+    .landmark-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .culture-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+/* Positioning for each pin */
+.pin-1 {
+    bottom: 25px;
+    left: 100px;
+}
+
+.pin-2 {
+    bottom: 100px;
+    left: 400px;
+}
+
+.pin-3 {
+    top: 275px;
+    left: 375px;
+}
+
+.pin-4 {
+    top: 325px;
+    left: 475px;
+}
+
+.pin-5 {
+    top: 350px;
+    left: 500px;
+}
+
+.pin-6 {
+    top: 375px;
+    left: 450px;
+}
+
+.pin-7 {
+    top: 470px;
+    left: 590px;
+}
+
+.pin-8 {
+    bottom: 40px;
+    left: 325px;
+}
